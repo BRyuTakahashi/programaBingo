@@ -1,4 +1,5 @@
 const listaCedulas = document.querySelectorAll(".numero");
+const numeroSorteado = document.querySelector(".numeroSorteado");
 
 var listaSelecionados = [];
 
@@ -27,7 +28,7 @@ function numeroEscolhido(posicao) {
     } else {
       letra = "O";
     }
-    div_numeroSorteado.innerHTML = `${numeroAtual} ${letra}`;
+    numeroSorteado.innerHTML = `${numeroAtual} ${letra}`;
     listaCedulas[posicao].classList.add("numeroEscolhido");
   }
 }
