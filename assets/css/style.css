@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -95,10 +96,11 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px;
   width: 65px;
   height: 65px;
   font-weight: 600;
-  font-size: 74px;
+  font-size: 58px;
   margin: 1px;
   cursor: pointer320;
 }
