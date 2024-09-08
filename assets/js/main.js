@@ -37,30 +37,3 @@ for (let i = 0; i < listaCedulas.length; i++) {
     numeroEscolhido(i);
   };
 }
-
-/*
-
-function numeroEscolhido1() {
-  if (listaSelecionados.indexOf(1) >= 0) {
-    for (i = 0; i < listaSelecionados.length; i++) {
-      if (listaSelecionados[i] == 1) {
-        listaSelecionados.splice(i, 1);
-      }
-    }
-    um.innerHTML = `
-            <div class="numero">
-                <span>1</span>
-                </div>
-                `;
-  } else {
-    listaSelecionados.push(1);
-    um.innerHTML = `
-            <div class="numero numeroEscolhido">
-                <span>1</span>
-            </div>
-            `;
-    div_numeroSorteado.innerHTML = `1 B`;
-  }
-}
-
-*/
